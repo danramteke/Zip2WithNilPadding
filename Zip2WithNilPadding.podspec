@@ -11,6 +11,6 @@ Pod::Spec.new do |s|
   s.source            = { :git => "https://github.com/danramteke/Zip2WithNilPadding.git", :tag => s.version }
   s.platform          = :ios, '10.0'
   s.requires_arc      = true
-  s.frameworks        = 'UIKit'
+  s.swift_version     = '4.0'
   s.source_files      = 'Sources/**/*.swift'
 end
